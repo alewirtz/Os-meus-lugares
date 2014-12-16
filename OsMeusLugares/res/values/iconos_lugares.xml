@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name = "iconos_lugares">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/playa</item>
+        <item>@drawable/restaurante</item>
+        <item>@drawable/hotel</item>
+        <item>@drawable/otros</item>
+    </array>
+</resources>

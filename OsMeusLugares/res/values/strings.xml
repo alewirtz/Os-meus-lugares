@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Os Meus Lugares</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_lugares">ListLugares</string>
+    <string name="title_activity_acerca_de">AcercaDeActivity</string>
+    <string name="title_activity_preferencias">PreferenciasActivity</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="salir">Salir</string>
+    <string name="title_activity_edit_lugar">EditLugarActivity</string>
+    <string name="Lugar">Lugar</string>
+    <string name="Editar">Editar</string>
+    <string name="estasenlugares">Estás en lugares</string>
+    <string name="inicio">Estás en inicio</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="listado_lugares">Listado De Lugares</string>
+    <string name="nohaylugares">No hay lugares</string>
+    <string name="anadir">Añadir</string>
+    <string name="lugares">Lugares</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombredellugar">Nombre del lugar</string>
+    <string name="ciudaddellugar">Ciudad del lugar</string>
+    <string name="direcciondellugar">Dirección del lugar</string>
+    <string name="telefonodellugar">Teléfono para contactar</string>
+    <string name="paginaweb">Página Web</string>
+    <string name="introducetusnotas">Introduce tus notas</string>
+    <string name="nombre">Nombre</string>
+    <string name="tipo">Tipo</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
+    <string name="url">Url</string>
+    <string name="comentario">Comentario</string>
+    <string name="listadodesitios">Mis sitios</string>
+    <string name="nohaysitios">No hay sitios</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="add_lugar">Añadir Lugar</string>
+    <string name="edit_lugar">Editar Lugar</string>
+    <string name="edit_delete">Eliminar Lugar</string>
+    <string name="title_preferencias">Preferencias</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="osmeuslugares">Os Meus Lugares</string>
+    <string name="title_activity_list_categorias">Lista de categorias</string>
+    <string name="title_activity_edit_categoria">Editar Categoria</string>
+    <string name="listado_categorias">Listado de Categorias</string>
+    <string name="add_categoria">Añadir Categoria</string>
+    <string name="icono">Icono</string>
+    <string name="edit_categoria">Editar Categoria</string>
+    <string name="del_categoria">Eliminar Categoria</string>
+    <string name="ir_web">Ir a sitio web</string>
+    <string name="marcar_telefono">Marcar teléfono</string>
+	<string name="enviar_por_email">Enviar por email</string>
+	<string name="acercaDe1">Desarrollado por:</string>
+	<string name="acercaDe2">Alejandro Otero</string>
+	<string name="acercaDe3">DAM211</string>
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/otros" />
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/icono"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/icono"
+        android:layout_below="@+id/textViewTitulo"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nombre"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textViewLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNombre"
+        android:layout_below="@+id/textViewNombre"
+        android:text="@string/tipo"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textViewDirecc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLugar"
+        android:layout_below="@+id/textViewLugar"
+        android:text="@string/direccion"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textViewCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDirecc"
+        android:layout_below="@+id/textViewDirecc"
+        android:text="@string/ciudad"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textViewUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewCiudad"
+        android:layout_below="@+id/textViewCiudad"
+        android:text="@string/url"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textViewTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewUrl"
+        android:layout_below="@+id/textViewUrl"
+        android:text="@string/telefono"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewComent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTel"
+        android:layout_below="@+id/textViewTel"
+        android:paddingBottom="10dp"
+        android:text="@string/comentario"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvNombre"
+        android:layout_below="@+id/tvNombre"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTipo"
+        android:layout_below="@+id/tvTipo"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDireccion"
+        android:layout_below="@+id/tvDireccion"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvCiudad"
+        android:layout_below="@+id/tvCiudad"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvUrl"
+        android:layout_below="@+id/tvUrl"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvComentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTelefono"
+        android:layout_below="@+id/tvTelefono"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewNombre"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textViewComent"
+        android:textStyle="bold"
+        android:textColor="#009688" />
+
+</RelativeLayout>

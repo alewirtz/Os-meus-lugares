@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.osmeuslugares.EditCategoriaActivity" >
+    <item android:id="@+id/guardar_edCat" android:orderInCategory="1" android:showAsAction="always" android:icon="@android:drawable/ic_menu_save" android:title="@string/guardar"></item>
+    <item android:id="@+id/eliminar_edCat" android:orderInCategory="2" android:showAsAction="always" android:title="@string/eliminar" android:icon="@android:drawable/ic_menu_delete"></item>
+    <item android:id="@+id/cerrar_edCat" android:orderInCategory="3" android:showAsAction="always" android:title="@string/cerrar" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/title_preferencias" android:key="preferencias">
+<CheckBoxPreference android:summary="Se reproduce música de fondo" android:key="musica" android:title="Reproducir Música" android:icon="@android:drawable/ic_lock_silent_mode_off"/>
+<SwitchPreference android:switchTextOff="OFF" android:title="Ver Información ampliada" android:switchTextOn="ON" android:summary="En Listado ver más información" android:icon="@android:drawable/ic_input_add" android:key="ver_info_ampliada"/>
+</PreferenceScreen>

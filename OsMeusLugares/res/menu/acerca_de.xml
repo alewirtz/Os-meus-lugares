@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.osmeuslugares.AcercaDeActivity" >
+    <item android:id="@+id/cerrar_acercaDe" android:title="@string/salir" android:showAsAction="always" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+
+</menu>

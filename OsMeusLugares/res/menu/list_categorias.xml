@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.osmeuslugares.ListCategoriasActivity" >
+    <item android:id="@+id/add_categoria" android:showAsAction="always" android:icon="@android:drawable/ic_menu_add" android:orderInCategory="1" android:title="@string/add_categoria"></item>
+    <item android:id="@+id/cerrar_list_cat" android:showAsAction="always" android:orderInCategory="2" android:icon="@android:drawable/ic_menu_close_clear_cancel" android:title="@string/cerrar"></item>
+
+</menu>

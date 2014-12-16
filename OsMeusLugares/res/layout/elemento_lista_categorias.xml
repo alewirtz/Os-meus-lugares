@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/iconoCat"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/otros" />
+
+    <TextView
+        android:id="@+id/tvTituloCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/iconoCat"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textNombreCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iconoCat"
+        android:layout_below="@+id/tvTituloCat"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nombre"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textIconoCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textNombreCat"
+        android:layout_below="@+id/textNombreCat"
+        android:paddingBottom="20dp"
+        android:text="@string/icono"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNombreCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textIconoCat"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/textNombreCat"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvIconoCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textIconoCat"
+        android:layout_alignBottom="@+id/textIconoCat"
+        android:layout_alignLeft="@+id/tvNombreCat"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

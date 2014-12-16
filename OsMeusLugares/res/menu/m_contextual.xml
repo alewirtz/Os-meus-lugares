@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.osmeuslugares.ListLugares" >
+
+    <item
+        android:id="@+id/item_sitio_web"
+        android:orderInCategory="1"
+        android:title="@string/ir_web">
+    </item>
+    <item
+        android:id="@+id/item_llamar"
+        android:orderInCategory="2"
+        android:title="@string/marcar_telefono">
+    </item>
+    <item
+        android:id="@+id/item_enviar_email"
+        android:orderInCategory="3"
+        android:title="@string/enviar_por_email">
+    </item>
+    <item
+        android:id="@+id/item_editar_lugar"
+        android:orderInCategory="4"
+        android:title="@string/edit_lugar"/>
+    <item
+        android:id="@+id/item_borrar_lugar"
+        android:orderInCategory="5"
+        android:title="@string/edit_delete">
+    </item>
+
+</menu>

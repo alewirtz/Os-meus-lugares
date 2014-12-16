@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_tipos">
+        <item >Playa</item>
+        <item >Restaurante</item>
+        <item >Hotel</item>
+        <item >Otros</item>
+    </string-array>
+    
+</resources>

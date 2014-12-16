@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores_iconos_lugares">
+        <item >icono_nd</item>
+        <item >icono_playa</item>
+        <item >icono_restaurante</item>
+        <item >icono_hotel</item>
+        <item >icono_otros</item>
+    </string-array>
+</resources>
